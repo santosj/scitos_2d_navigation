@@ -12,6 +12,11 @@
 		<param name="controller_patience" value="15.0" />
 		<param name="planner_frequency" value="2.0" />
 		<param name="clearing_rotation_allowed" value="false" />
+		<param name="min_vel_x" value="-1.0" />
+		<param name="foward_point_distance" value="0.325" />
+		<param name="sim_time" value="2.5" />
+		<param name="yaw_goal_tolerance" value="6.0" />
+		<param name="min_trans_vel" value="0.1" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/costmap_common_params.yaml" command="load" ns="global_costmap" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/costmap_common_params.yaml" command="load" ns="local_costmap" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/local_costmap_params.yaml" command="load" />
@@ -26,6 +31,11 @@
 		<param name="controller_patience" value="15.0" />
 		<param name="planner_frequency" value="2.0" />
 		<param name="clearing_rotation_allowed" value="false" />
+		<param name="min_vel_x" value="-1.0" />
+		<param name="foward_point_distance" value="0.325" />
+		<param name="sim_time" value="2.5" />
+		<param name="yaw_goal_tolerance" value="6.0" />
+		<param name="min_trans_vel" value="0.1" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/costmap_common_params.yaml" command="load" ns="global_costmap" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/costmap_common_params.yaml" command="load" ns="local_costmap" />
 		<rosparam file="$(find scitos_2d_navigation)/scitos_move_base_params/local_costmap_params.yaml" command="load" />
